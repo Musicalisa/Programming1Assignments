@@ -1,0 +1,59 @@
+Lisa Cifuentes
+11/01/16
+This assignment will be due 11/8/16
+
+Pseudocode:
+
+-ask user for csv file (that exists)
+-chomp $file = STDIN
+
+<<<<<<< HEAD
+open (NEWFILE, '<', $file) 
+
+Info for csv file:
+
+<books>
+	<author> Fitzgerald, F. Scott </author>
+	<title> The Great Gatsby </title>
+	<genre> Novel, historial </genre>
+
+<flute>
+	<composer> Telemann </composer>
+	<title> Fantasia No. 6 </title>
+	<genre> Classical </genre>
+
+<singing> 
+	<
+=======
+-open (NEWFILE, '<', $file) 
+
+-put all info from file into an array @_ = $file
+
+-Create variables as match expressions to validate composer and piece names,
+as well as the composition year.
+
+	my $lookfor 1: 'regex'
+	my $lookfor 2: 'regex' etc.
+
+-Create a subroutine to validate data and print out error message prompting user to 
+change it if need be.
+
+-Create a foreach loop that validates each line of split data from csv file for:
+	-composer
+	-piece
+	-year
+
+-Close the file
+
+-Create a subroutine for csv to xml file conversion
+	print NEWFILE "<>\n";
+	print NEWFILE "<composer> ... </composer>\n";
+	print NEWFILE "<piece> ... </piece>\n";
+		etc...
+
+-open xml file
+
+-print content (through loops that call the subroutine mentioned above).
+
+-close the file.
+>>>>>>> bef5620130b11cab58fba3052acba974eaa10bc4

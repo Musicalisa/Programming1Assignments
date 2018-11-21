@@ -1,0 +1,41 @@
+
+
+Quiz.txt 
+September 15, 2016
+Created by: Alyssa Campbell
+
+1.	What is the difference between a VPS and a VPN?
+-A VPN is a Virtual Private Network. It makes the private network of a company accessible through a public network like internet. A VPS (Virtual Private Server), on the other hand, is a service provided by the hosting company to host a website or an application.
+2.	What does it mean to fork a project? 
+-A fork is simply a copy of a repository that gives you complete ownership of the original project.
+3.	When using closed source software, do you have the same access as if using open sourced software? If not, why?
+-No, closed source software does not allow users to change the source code, while open source software is freely available to everyone. 
+4.	If you want to create a blank file, then move it to a different folder, what commands would you need to use and how would you use them?
+-I would use touch to create the file
+-Then type mv followed by the name of the folder I want to move it to.
+5.	What action does “\n” represent/
+-It means to “start a new line”
+6.	When using binary what is the base numbering system used?
+-Base-2
+7.	If I have a file, how would I push it to the original repository? 
+git add
+git status
+git commit –m “”
+git push origin master
+8.	Describe what actions the following symbols represent. 
+a.	ls = listing
+b.	cd~ =shortcut that takes you back home
+c.	mkdir =makes a new directory
+d.	git pull =pull files from the git remote repository down to local repository
+9.	What are the file extensions for the following programming languages?
+a.	Perl script - 	.pl
+b.	Ruby –     .rb
+c.	Python –   .py
+d.	C++    .cc
+10.	What series of git commands moves a file into the staging the area, saves the file, then pushes the file to the where the repository began?
+git add
+git status
+git commit m- “”
+git push origin master
+
+
