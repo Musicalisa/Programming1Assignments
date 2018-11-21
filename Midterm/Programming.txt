@@ -1,0 +1,13 @@
+a. Strongly typed languages require the user to explicitly declare data types when defining variables.
+Loosely typed languages, on the other hand, do not require the user to be as specific about the data types.
+
+b. A stack is a data structure in which the last element in is the first element out.  Elements are added and removed from the same
+end of the chain of information. For example: the push/pop command in perl.
+A queue is an ordered data structure in which the first element in is also the first element out. Elements are added and 
+removed from opposite ends of the chain of information.
+
+c. 
+10 = 00001010
+128 = 10000000
+00001001 = 9
+00101010 = 42

@@ -1,0 +1,9 @@
+a) A module is a separate software component that serves as a container for subroutines and variables. Since it is defined
+outside of the main program, it can add functionality to multiple programs when called and allows the user to solve complex
+problems in more manageable sections.  
+
+b) A subroutine is a sequence of instructions that is defined in a program. It is stored as a unit that accomplishes specific
+tasks. Subroutinees are useful because they are user-defined functions that can be called multiple times within the same 
+program to avoid having to rewrite the same chunk of code.
+
+c)A reference or pointer is a variable that holds the location in memory of a piece of data, rather than the data itself.
